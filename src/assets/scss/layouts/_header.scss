@@ -20,6 +20,11 @@ header {
 				width: 16px;
 				// transform: rotate(-180deg);
 				padding: 2px 0;
+				cursor: pointer;
+
+				&:hover {
+					background: $secondaryColor;
+				}
 			}
 
 			.welcome-text {
@@ -142,6 +147,57 @@ header {
 						fill: $primaryColor;
 					}
 				}
+			}
+		}
+	}
+
+	&.show{
+		width: 100px;
+
+		.nav-welcome {
+			svg {
+				transform: rotate(-180deg);
+			}
+
+			.welcome-text {
+				visibility: hidden;
+				width: 0;
+			}
+		}
+
+		.nav-logo {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 40px 0px;
+
+			.nav-logo-title {
+				visibility: hidden;
+				width: 0;
+			}
+		}
+
+		.nav-list {
+			.nav-item {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 10px 20px;
+
+				.item-text {
+					visibility: hidden;
+					width: 0;
+					margin: 0;
+				}
+			}
+		}
+
+		.nav-social-list {
+			display: block;
+			padding: 0;
+
+			.social-item {
+				margin: 10px 0;
 			}
 		}
 	}
