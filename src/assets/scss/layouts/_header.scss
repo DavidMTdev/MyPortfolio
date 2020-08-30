@@ -1,0 +1,148 @@
+header {
+	height: 100vh;
+	background: $lightColor;
+	position: fixed;
+}
+
+.header-nav {
+	height: 100%;
+	position: relative;
+
+	.header-nav-top {
+		.nav-welcome {
+			background: $primaryColor;
+			display: flex;
+			justify-content: flex-end;
+
+			svg {
+				fill: $yellowColor;
+				height: 16px;
+				width: 16px;
+				// transform: rotate(-180deg);
+				padding: 2px 0;
+			}
+
+			.welcome-text {
+				color: $yellowColor;
+				width: calc(100% - 16px);
+				font-size: 12px;
+				font-weight: 400;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 2px 0;
+			}
+		}
+
+		.nav-logo {
+			background: $whiteColor;
+			padding: 40px 60px;
+
+			img {
+				height: 64px;
+				width: 64px;
+			}
+
+			.nav-logo-title {
+				font-family: 'Masque';
+				font-size: 1.75em;
+			}
+		}
+
+		.nav-list {
+			margin-top: 60px;
+
+			.nav-item {
+				display: flex;
+				align-items: center;
+				padding: 15px 60px;
+				cursor: pointer;
+
+				svg {
+					fill: $darkColor;
+					height: 20px;
+					width: 20px;
+				}
+
+				.item-text {
+					margin-left: 20px;
+					color: $darkColor;
+
+					a {
+						font-size: 14px;
+						font-weight: 700;
+						color: $darkColor;
+					}
+
+					.item-text-line {
+						margin-left: 20px;
+						font-size: 14px;
+						font-weight: 700;
+					}
+				}
+
+				&.active {
+					svg {
+						fill: $primaryColor;
+					}
+
+					.item-text {
+						color: $primaryColor;
+
+						a {
+							color: $primaryColor;
+						}
+					}
+				}
+
+				&:hover {
+					svg {
+						fill: $primaryColor;
+					}
+
+					.item-text {
+						color: $primaryColor;
+
+						a {
+							color: $primaryColor;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.header-nav-bottom {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+
+		.nav-social-list {
+			display: flex;
+			border-top: 1px solid $darkColor;
+			justify-content: center;
+			padding: 20px 0;
+
+			.social-item {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin: 0 30px;
+				cursor: pointer;
+
+				svg {
+					fill: $darkColor;
+					height: 16px;
+					width: 16px;
+				}
+
+				&:hover {
+					svg {
+						fill: $primaryColor;
+					}
+				}
+			}
+		}
+	}
+}
