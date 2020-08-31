@@ -1,9 +1,3 @@
-header {
-	height: 100vh;
-	background: $lightColor;
-	position: fixed;
-}
-
 .header-nav {
 	height: 100%;
 	position: relative;
@@ -60,29 +54,32 @@ header {
 			.nav-item {
 				display: flex;
 				align-items: center;
-				padding: 15px 60px;
 				cursor: pointer;
 
-				svg {
-					fill: $darkColor;
-					height: 20px;
-					width: 20px;
-				}
-
-				.item-text {
-					margin-left: 20px;
+				a {
+					font-size: 14px;
+					font-weight: 700;
 					color: $darkColor;
+					padding: 15px 60px;
+					width: 100%;
+					display: flex;
+					align-items: center;
 
-					a {
-						font-size: 14px;
-						font-weight: 700;
-						color: $darkColor;
+					svg {
+						fill: $darkColor;
+						height: 20px;
+						width: 20px;
 					}
 
-					.item-text-line {
+					.item-text {
 						margin-left: 20px;
-						font-size: 14px;
-						font-weight: 700;
+						color: $darkColor;
+
+						.item-text-line {
+							margin-left: 20px;
+							font-size: 14px;
+							font-weight: 700;
+						}
 					}
 				}
 
@@ -151,7 +148,7 @@ header {
 		}
 	}
 
-	&.show{
+	&.show {
 		width: 100px;
 
 		.nav-welcome {
@@ -179,10 +176,12 @@ header {
 
 		.nav-list {
 			.nav-item {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				padding: 10px 20px;
+				a {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					padding: 10px 20px;
+				}
 
 				.item-text {
 					visibility: hidden;
