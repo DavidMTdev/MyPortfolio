@@ -13,6 +13,7 @@
 			font-size: 34px;
 			line-height: 40px;
 			margin-bottom: 1em;
+			text-transform: uppercase;
 		}
 
 		h3 {
@@ -66,8 +67,8 @@
 	}
 
 	.about-button {
-        display: flex;
-        justify-content: flex-start;
+		display: flex;
+		justify-content: flex-start;
 
 		a {
 			background-color: $yellowColor;
@@ -75,9 +76,33 @@
 			font-weight: bold;
 			font-size: 14px;
 			line-height: 16px;
-            text-transform: uppercase;
-            padding: 20px 40px;
+			text-transform: uppercase;
+			padding: 20px 40px;
 			color: #2f3640;
+		}
+	}
+}
+
+.section-skills {
+	.main-skills {
+		margin-bottom: 2em;
+		.skills-title {
+			margin-bottom: 1em;
+
+			h5 {
+				font-style: normal;
+				font-weight: bold;
+				font-size: 20px;
+				line-height: 23px;
+				text-transform: uppercase;
+			}
+		}
+
+		.skills-img {
+			img {
+                height: 32px;
+                margin-right: 1.5em;
+			}
 		}
 	}
 }

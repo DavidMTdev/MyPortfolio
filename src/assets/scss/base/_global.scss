@@ -20,12 +20,24 @@ main{
     background-color: $secondaryColor;
 }
 
+.bg-white{
+    background-color: $whiteColor;
+}
+
+.text-primary{
+    color: $primaryColor;
+}
+
 .text-white{
     color: $whiteColor;
 }
 
 .text-light{
     color: $lightColor;
+}
+
+.text-dark{
+    color: $darkColor;
 }
 
 .container{

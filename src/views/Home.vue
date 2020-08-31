@@ -9,7 +9,6 @@
 import Hero from "@/components/Hero.vue";
 import Resume from "@/components/Resume.vue";
 
-
 export default {
   name: "Home",
   components: {

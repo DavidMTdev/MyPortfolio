@@ -21,7 +21,7 @@
           </p>
         </div>
         <div class="hero-link">
-          <a href>
+          <a href="#resume">
             <svg
               width="64"
               height="64"

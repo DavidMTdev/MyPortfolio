@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="about-button">
-          <a href="">Telecharger CV</a>
+          <a href="/David_Da_Silva_Teixeira_cv-v2.2.pdf">Telecharger CV</a>
       </div>
     </div>
   </div>
