@@ -2,6 +2,47 @@
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+	height: 100vh;
+	background: $lightColor;
+	position: fixed;
+}
+
+main{
+    width: 100vw;
+}
+
 #app{
     display: flex;
 }
+
+.bg-secondary{
+    background-color: $secondaryColor;
+}
+
+.text-white{
+    color: $whiteColor;
+}
+
+.text-light{
+    color: $lightColor;
+}
+
+.container{
+    margin: 0 10%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto 1fr ;
+}
+
+.mb-1{
+    margin-bottom: 1em;
+}
+
+.pb-4{
+    padding-bottom: 4em;
+
+}
+

@@ -1,12 +1,20 @@
 <template>
-  <main class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+  <main>
+    <Hero></Hero>
+    <Resume></Resume>
   </main>
 </template>
 
 <script>
+import Hero from "@/components/Hero.vue";
+import Resume from "@/components/Resume.vue";
+
+
 export default {
   name: "Home",
-  components: {}
+  components: {
+    Hero,
+    Resume
+  }
 };
 </script>
