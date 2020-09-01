@@ -24,6 +24,14 @@ main{
     background-color: $whiteColor;
 }
 
+.bg-gray{
+    background-color: $grayColor;
+}
+
+.bg-light{
+    background-color: $lightColor;
+}
+
 .text-primary{
     color: $primaryColor;
 }
@@ -46,11 +54,18 @@ main{
 
 .grid{
     display: grid;
-    grid-template-columns: auto 1fr ;
+}
+
+.column-2{
+    grid-template-columns: auto auto ;
 }
 
 .mb-1{
     margin-bottom: 1em;
+}
+
+.pb-2{
+    padding-bottom: 2em;
 }
 
 .pb-4{

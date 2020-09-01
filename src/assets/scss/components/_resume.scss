@@ -100,9 +100,124 @@
 
 		.skills-img {
 			img {
-                height: 32px;
-                margin-right: 1.5em;
+				height: 32px;
+				margin-right: 1.5em;
 			}
+		}
+	}
+}
+
+.section-experience,
+.section-education {
+	.date {
+		margin-right: 3em;
+
+		.date-text {
+			position: relative;
+			background-color: $primaryColor;
+			color: $whiteColor;
+			padding: 30px 20px;
+
+			p {
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 19px;
+				width: 200px;
+				text-align: center;
+			}
+
+			.arrow-right {
+				position: absolute;
+				top: 50%;
+				left: calc(100% - 2px);
+				transform: translate(0, -50%);
+
+				svg {
+					width: 20px;
+					height: 32px;
+					fill: $primaryColor;
+				}
+			}
+		}
+	}
+
+	.info {
+		position: relative;
+
+		&.border-l-light {
+			border-left: 2px solid $lightColor;
+		}
+
+		&.border-l-white {
+			border-left: 2px solid $whiteColor;
+		}
+
+		.info-content {
+			padding: 30px 20px;
+			margin-left: 3em;
+			position: relative;
+
+			.name {
+				font-style: normal;
+				font-weight: bold;
+				font-size: 16px;
+				line-height: 19px;
+				color: $darkColor;
+				margin-bottom: 0.5em;
+			}
+
+			.post {
+				font-style: normal;
+				font-weight: 300;
+				font-size: 16px;
+				line-height: 19px;
+				color: $darkColor;
+				margin-bottom: 0.75em;
+			}
+
+			.content {
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 19px;
+				text-align: justify;
+				color: $darkColor;
+			}
+
+			.arrow-left {
+				position: absolute;
+				top: 35px;
+				right: calc(100% - 2px);
+				transform: rotate(180deg) translate(0, 50%);
+			}
+
+			.fill-light {
+				svg {
+					width: 20px;
+					height: 32px;
+					fill: $lightColor;
+				}
+			}
+
+			.fill-white {
+				svg {
+					width: 20px;
+					height: 32px;
+					fill: $whiteColor;
+				}
+			}
+		}
+
+		&::before {
+			content: "";
+			background-color: $primaryColor;
+			width: 16px;
+			height: 16px;
+			position: absolute;
+			top: 30px;
+			right: calc(100% - 6.5px);
+			border-radius: 50%;
 		}
 	}
 }
