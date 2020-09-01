@@ -1,0 +1,71 @@
+.section-contact {
+	.grid {
+		grid-column-gap: 6em;
+	}
+	.contact-title {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 23px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		text-transform: uppercase;
+		color: $darkColor;
+		margin-bottom: 2em;
+	}
+
+	.contact-list {
+		.list-item {
+			display: flex;
+			align-items: center;
+			margin: 1em 0;
+
+			svg {
+				width: 24px;
+				height: 24px;
+				fill: #bdc3c7;
+			}
+
+			p {
+				margin-left: 1em;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 19px;
+				color: #bdc3c7;
+			}
+		}
+	}
+
+	.contact-form {
+		.input-group {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 1em;
+
+			input {
+				background: #bdc3c7;
+				border: none;
+				padding: 1em;
+				width: 200px;
+			}
+		}
+
+		textarea {
+			width: calc(100% - 2em);
+			background: #bdc3c7;
+			border: none;
+			padding: 1em;
+			margin-bottom: 1em;
+		}
+
+		button {
+			border: none;
+			padding: 1em 2em;
+			background-color: $secondaryColor;
+            color: $whiteColor;
+            float: right;
+		}
+	}
+}
