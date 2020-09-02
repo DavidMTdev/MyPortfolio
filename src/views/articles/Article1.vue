@@ -10,7 +10,11 @@
           </span>
         </div>
         <div class="post-banner">
-          <img class="img-fluid" src="@/assets/img/banner-sfr-distribution.png" alt />
+          <img
+            class="img-fluid"
+            src="@/assets/img/banner-sfr-distribution.png"
+            alt
+          />
         </div>
       </div>
       <div class="blog-post-body">
@@ -67,17 +71,17 @@
           <img class="img-fluid" src="@/assets/img/wallpaper-python.jpg" alt />
         </div>
         <p>
-          Le jour suivant, le script fut terminé et j’ai pu commencer des
-          tests sur le serveur, mais j’ai rencontré quelques erreurs sur le
-          serveur, or sur ma machine le programme fonctionnait. De longues
-          heures de recherches ont été nécessaire pour comprendre l’erreur qui
-          me posait problème, dont la solution était que j’utilisé python 3.7 64
-          bits sous une machine 32 bits. Pour faire face à cette erreur j’ai dû
-          recompiler mon script avec python 3.7 32 bits. Pour donner suite à
-          cela j’ai effectué à nouveau un test sur le serveur mais une nouvelle
-          erreur est apparue. Cela m’a demandé de nouvelles heures de recherche
-          pour résoudre le nouvel problème qui se posait. J’ai alors compris que
-          l’OS du serveur était un Windows serveur 2003 32 bits, or j’utilisais
+          Le jour suivant, le script fut terminé et j’ai pu commencer des tests
+          sur le serveur, mais j’ai rencontré quelques erreurs sur le serveur,
+          or sur ma machine le programme fonctionnait. De longues heures de
+          recherches ont été nécessaire pour comprendre l’erreur qui me posait
+          problème, dont la solution était que j’utilisé python 3.7 64 bits sous
+          une machine 32 bits. Pour faire face à cette erreur j’ai dû recompiler
+          mon script avec python 3.7 32 bits. Pour donner suite à cela j’ai
+          effectué à nouveau un test sur le serveur mais une nouvelle erreur est
+          apparue. Cela m’a demandé de nouvelles heures de recherche pour
+          résoudre le nouvel problème qui se posait. J’ai alors compris que l’OS
+          du serveur était un Windows serveur 2003 32 bits, or j’utilisais
           python 3.7. Toutefois, l’OS du serveur est trop ancien pour
           l’utilisation de python 3.5 ou plus, c’est pour cela que je me suis
           mis à utiliser python 2.7 32 bits. Par ailleurs, j’ai remarqué que la
