@@ -15,7 +15,12 @@
             <div class="date-text">
               <p>10/03/2013 - 20/03/2013</p>
               <div class="arrow-right">
-                <svg width="23" height="40" viewBox="0 0 23 40" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                  width="23"
+                  height="40"
+                  viewBox="0 0 23 40"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path d="M23 20L0.5 39.9186L0.5 0.0814152L23 20Z" />
                 </svg>
               </div>
@@ -33,7 +38,12 @@
                 pu me montrer que je ne voulais pas travailler dans ce domaine.
               </div>
               <div class="arrow-left fill-light">
-                <svg width="23" height="40" viewBox="0 0 23 40" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                  width="23"
+                  height="40"
+                  viewBox="0 0 23 40"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path d="M23 20L0.5 39.9186L0.5 0.0814152L23 20Z" />
                 </svg>
               </div>
@@ -44,7 +54,12 @@
             <div class="date-text">
               <p>24/06/2019 - 02/08/2019</p>
               <div class="arrow-right">
-                <svg width="23" height="40" viewBox="0 0 23 40" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                  width="23"
+                  height="40"
+                  viewBox="0 0 23 40"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path d="M23 20L0.5 39.9186L0.5 0.0814152L23 20Z" />
                 </svg>
               </div>
@@ -65,7 +80,12 @@
                 paramétrage et la programmation.
               </div>
               <div class="arrow-left fill-light">
-                <svg width="23" height="40" viewBox="0 0 23 40" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                  width="23"
+                  height="40"
+                  viewBox="0 0 23 40"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path d="M23 20L0.5 39.9186L0.5 0.0814152L23 20Z" />
                 </svg>
               </div>
