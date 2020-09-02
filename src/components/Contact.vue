@@ -73,7 +73,7 @@
         </div>
         <div class="row">
           <div class="contact-title">
-            <h5>Ecriver UN MESSAGE!</h5>
+            <h5>Ecrivez UN MESSAGE!</h5>
           </div>
           <div class="contact-form">
             <form action method="post">

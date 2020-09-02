@@ -2,7 +2,7 @@
   <article class="blog-post">
     <div class="container">
       <div class="blog-post-header">
-        <h2 class="post-title mb-2">Rapport Stage De Première Année</h2>
+        <h2 class="post-title mb-2">Rapport Stage Chez SFR Distribution</h2>
         <div class="post-meta mb-3">
           <span>
             Juillet 27, 2019 / by
