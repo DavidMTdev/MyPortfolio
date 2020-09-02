@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -8,72 +8,71 @@ header {
 	position: fixed;
 }
 
-main{
-    width: 100vw;
+// main, footer{
+//     width: 100vw;
+// }
+
+#app {
+	// display: flex;
+	// position: relative;
 }
 
-#app{
-    display: flex;
+.bg-secondary {
+	background-color: $secondaryColor;
 }
 
-.bg-secondary{
-    background-color: $secondaryColor;
+.bg-white {
+	background-color: $whiteColor;
 }
 
-.bg-white{
-    background-color: $whiteColor;
+.bg-gray {
+	background-color: $grayColor;
 }
 
-.bg-gray{
-    background-color: $grayColor;
+.bg-light {
+	background-color: $lightColor;
 }
 
-.bg-light{
-    background-color: $lightColor;
+.text-primary {
+	color: $primaryColor;
 }
 
-.text-primary{
-    color: $primaryColor;
+.text-white {
+	color: $whiteColor;
 }
 
-.text-white{
-    color: $whiteColor;
+.text-light {
+	color: $lightColor;
 }
 
-.text-light{
-    color: $lightColor;
+.text-dark {
+	color: $darkColor;
 }
 
-.text-dark{
-    color: $darkColor;
+.container {
+	margin: 0 15%;
 }
 
-.container{
-    margin: 0 10%;
+.grid {
+	display: grid;
 }
 
-.grid{
-    display: grid;
+.column-2 {
+	grid-template-columns: auto auto;
 }
 
-.column-2{
-    grid-template-columns: auto auto ;
+.mb-1 {
+	margin-bottom: 1em;
 }
 
-.mb-1{
-    margin-bottom: 1em;
+.py-4 {
+	padding: 4em 0;
 }
 
-.py-4{
-    padding: 4em 0;
+.pb-2 {
+	padding-bottom: 2em;
 }
 
-.pb-2{
-    padding-bottom: 2em;
+.pb-4 {
+	padding-bottom: 4em;
 }
-
-.pb-4{
-    padding-bottom: 4em;
-
-}
-

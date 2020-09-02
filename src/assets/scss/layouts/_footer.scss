@@ -1,0 +1,27 @@
+.footer {
+	// position: absolute;
+	// bottom: 0;
+	background-color: $secondaryColor;
+	padding: 3em 0;
+
+	.footer-content {
+		text-align: center;
+
+		.content-name {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 34px;
+			line-height: 40px;
+            color: $whiteColor;
+            margin-bottom: 0.5em;
+		}
+
+		.content-copyright {
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 19px;
+			color: #dcdde1;
+		}
+	}
+}
