@@ -93,7 +93,7 @@
             class="nav-item"
             :class="{ active: isActive[3] }"
           >
-            <router-link to="/">
+            <router-link to="/blog">
               <svg
                 width="64"
                 height="64"
