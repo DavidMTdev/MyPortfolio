@@ -139,20 +139,17 @@ export default {
       show: true
     };
   },
-  // mounted() {
-  //   setTimeout(() => {
-  //     this.resize();
-  //   }, 1000);
-  // },
+  mounted() {
+      this.resize();
+  },
   updated() {
     this.resize();
   },
   methods: {
     resize() {
       this.headerWidth = document.querySelector(".header-nav").clientWidth;
-      document.querySelector("main").style.marginLeft = this.headerWidth + "px";
-      document.querySelector("footer").style.marginLeft =
-        this.headerWidth + "px";
+      document.querySelector("main").style.marginLeft = this.headerWidth - 1 + "px";
+      document.querySelector("footer").style.marginLeft = this.headerWidth - 1 + "px";
     },
     itemActive(value, key) {
       if (!value) {
