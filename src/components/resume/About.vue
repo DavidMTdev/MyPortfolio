@@ -44,7 +44,9 @@
         </div>
       </div>
       <div class="about-button">
-        <a href="/David_Da_Silva_Teixeira_cv-v2.2.pdf" target="_blank">Consultez mon CV</a>
+        <a href="/David_Da_Silva_Teixeira_cv-v2.2.pdf" target="_blank"
+          >Consultez mon CV</a
+        >
       </div>
     </div>
   </div>

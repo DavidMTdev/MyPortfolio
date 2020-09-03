@@ -10,7 +10,11 @@
           </span>
         </div>
         <div class="post-banner">
-          <img class="img-fluid" src="@/assets/img/banner-thrill-esport-club.jpg" alt />
+          <img
+            class="img-fluid"
+            src="@/assets/img/banner-thrill-esport-club.jpg"
+            alt
+          />
         </div>
       </div>
       <div class="blog-post-body">
@@ -49,7 +53,11 @@
           été transmise.
         </p>
         <div class="post-image">
-          <img class="img-fluid" src="@/assets/img/graphic-chart-home.jpg" alt />
+          <img
+            class="img-fluid"
+            src="@/assets/img/graphic-chart-home.jpg"
+            alt
+          />
         </div>
         <p>
           Après avoir terminé de rédiger le cahier des charges, je me suis

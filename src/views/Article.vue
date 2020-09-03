@@ -26,8 +26,10 @@ export default {
   methods: {
     resize() {
       this.headerWidth = document.querySelector(".header-nav").clientWidth;
-      document.querySelector("main").style.marginLeft = this.headerWidth - 1 + "px";
-      document.querySelector("footer").style.marginLeft = this.headerWidth - 1 + "px";
+      document.querySelector("main").style.marginLeft =
+        this.headerWidth - 1 + "px";
+      document.querySelector("footer").style.marginLeft =
+        this.headerWidth - 1 + "px";
     }
   }
 };

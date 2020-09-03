@@ -12,7 +12,9 @@
             <img class="post-thumb" src="@/assets/img/blog-logo-sfr.png" alt />
             <div class="media-body">
               <h3 class="title">
-                <router-link to="/blog/article/1">Stage Chez SFR Distribution</router-link>
+                <router-link to="/blog/article/1"
+                  >Stage Chez SFR Distribution</router-link
+                >
               </h3>
               <div class="meta">
                 <span>
@@ -22,21 +24,30 @@
               </div>
               <div class="intro">
                 La première semaine de stage chez SFR Distribution a été
-                essentiellement une visite guidée afin de présenter les locaux et
-                services de l’entreprise, puis une présentation plus approfondie sur
-                le service informatique auquel j’allais être rattaché...
+                essentiellement une visite guidée afin de présenter les locaux
+                et services de l’entreprise, puis une présentation plus
+                approfondie sur le service informatique auquel j’allais être
+                rattaché...
               </div>
-              <router-link class="more-link" to="/blog/article/1">En savoir plus →</router-link>
+              <router-link class="more-link" to="/blog/article/1"
+                >En savoir plus →</router-link
+              >
             </div>
           </div>
         </div>
         <!-- /* item end */ -->
         <div class="item">
           <div class="media">
-            <img class="post-thumb" src="@/assets/img/blog-logo-thrill-esport-club.png" alt />
+            <img
+              class="post-thumb"
+              src="@/assets/img/blog-logo-thrill-esport-club.png"
+              alt
+            />
             <div class="media-body">
               <h3 class="title">
-                <router-link to="/blog/article/2">Stage Chez Thrill Esport Club</router-link>
+                <router-link to="/blog/article/2"
+                  >Stage Chez Thrill Esport Club</router-link
+                >
               </h3>
               <div class="meta">
                 <span>
@@ -50,7 +61,9 @@
                 penatibus et magnis dis parturient montes, nascetur ridiculus
                 mus. Donec quam felis, ultricies...
               </div>
-              <router-link class="more-link" to="/blog/article/2">En savoir plus →</router-link>
+              <router-link class="more-link" to="/blog/article/2"
+                >En savoir plus →</router-link
+              >
             </div>
           </div>
         </div>
