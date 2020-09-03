@@ -8,37 +8,36 @@ const routes = [
 	{
 		path: '/',
 		name: 'Home',
-		component: () => import(/* webpackChunkName: "about" */ "../views/Home.vue")
+		meta: { title: 'Portfolio | David Teixeira' },
+		component: () => import('../views/Home.vue')
 	},
 	{
 		path: '/blog',
 		name: 'Blog',
-		component: () => import(/* webpackChunkName: "about" */ "../views/Blog.vue")
+		meta: { title: 'Blog | David Teixeira'},
+		component: () => import('../views/Blog.vue')
 	},
 	{
 		path: '/blog/article/:id',
-		name: 'Blog',
-		component: () => import(/* webpackChunkName: "about" */ "../views/Article.vue")
+		name: 'Article',
+		meta: { title: 'Article'},
+		component: () => import('../views/Article.vue')
 	},
 	{
 		path: '*',
 		redirect: '/'
 	}
-	// {
-	// path: "/about",
-	// name: "About",
-	// route level code-splitting
-	// this generates a separate chunk (about.[hash].js) for this route
-	// which is lazy-loaded when the route is visited.
-	// component: () =>
-	//   import(/* webpackChunkName: "about" */ "../views/About.vue")
-	// }
 ];
 
 const router = new VueRouter({
-	mode   : 'history',
-	base   : process.env.BASE_URL,
+	mode: 'history',
+	base: process.env.BASE_URL,
 	routes
+});
+
+router.beforeEach((to, from, next) => {
+	document.title = to.meta.title;
+	next();
 });
 
 export default router;
